@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	height:100vh;
+	width:100vw;
+	position:relative;
+	transition:background-color 1s ease;
+}
+section{
+display:flex;
+	justify-content:center;
+}
+.modal{
+	width:80%;
+	height:130px;
+	display:none;
+	position:absolute;
+	/* border:2px solid black; */
+	padding:20px;
+	top:0%;
+	background-color:white;
+	transition:top 1.5s ease;
+}
+.modal-header{
+	background-color:#4EAC4D;
+	width:640px;
+	height:70px;
+	color:white;
+	display:flex;
+	align-items:center;
+}
+.modal-body{
+	height:70px;
+	width:640px;
+	display:flex;
+	align-items:center;
+}
+.afterClick{
+    display:flex;
+	justify-content:center;
+	
+}
